@@ -42,7 +42,6 @@ const Formulario = () => {
             <h2>
                 Formulario Page
             </h2>
-            <Form>
                 {Object.keys(inputs).map((key, index) => (
                 <Form.Group className="mb-3" key={index}>
                     <Form.Label id="form">
@@ -61,9 +60,6 @@ const Formulario = () => {
                         Enviar Datos
                     </Button>
                 </div>
-                
-            </Form>
-
         </div>
     )
 }
